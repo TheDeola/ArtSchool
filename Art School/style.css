@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+    padding: 50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    background: rgb(76, 104, 234);
+    color: white;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+#Top ul {
+    padding: 0 0 0 200px;
+}
+#Top li a {
+    display: inline;
+    padding: 0px 1px;
+    color:white;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    border-radius: 10px;
+}
+.Home {
+    color:white;
+    background: rgb(245, 193, 4);
+    border: 8px solid rgb(245, 193, 4);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Aboutschool {
+    color:white;
+    background: rgb(85, 199, 166);
+    border: 8px solid rgb(85, 199, 166);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Schedules {
+    color:white;
+    background: rgb(236, 55, 96);
+    border: 8px solid rgb(236, 55, 96);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Kids {
+    color:white;
+    background: rgb(135, 201, 42);
+    border: 8px solid rgb(135, 201, 42);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Contacts {
+    color:white;
+    background: rgb(172, 38, 194);
+    border: 8px solid rgb(172, 38, 194);
+    border-radius: 10px;
+    text-decoration: none;
+}
+#banner {
+    background: url(/Images/kids.JPG);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    float: left;
+    color: white;
+}
+#banner h1 {
+    font-size: 40px;
+    padding: 50px 0 0 200px;
+}
+#banner ul {
+    padding: 0 0 0 200px;
+}
+#banner a {
+    color:white;
+    background: rgb(76, 104, 234);
+    border: 10px solid rgb(76, 104, 234);
+    margin: 0 auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
+h1 span {
+    font-weight:lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h1 span {
+    font-family: Montserrat;
+    font-size: small;
+}
+#banner2 {
+    background: url(/Images/kids.JPG);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    /* border: .1px solid white; */
+    color: white;
+}
+section {
+    height: 200px;
+    width: 100%;
+    /* border: .1px solid white; */
+    float: left;
+}
+h1 {
+    padding: 0 0 0 200px;
+}
+img {
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    float: right;
+}
+.Art {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(76, 104, 234);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Schoolb {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(236, 55, 96);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.For {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(245, 193, 4);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Young {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(85, 199, 166);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Picasso {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(135, 201, 42);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#artschool {
+    background: url();
+    background-repeat: no-repeat;
+    float: right;
+    height: 300px;
+    width: 100%;
+    padding: 30px 0;
+}
+#artschool p{
+    padding: 0 200px 0 200px;
+}
+#welcome {
+    background-color: rgb(85, 199, 166);
+    color: white;
+}
+#welcome p {
+    padding: 0 0 0 200px;
+}
+#welcome a {
+    color:white;
+    background:rgb(236, 55, 96);
+    border: 10px solid rgb(236, 55, 96);
+    margin: 0 auto;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+footer {
+    background: rgb(238, 109, 26);
+    color: white;
+    padding: 0 0 0 200px;
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    border: .1px solid white;
+    clear: both;
+    text-align: left;
+    line-height: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width: 600px) {
+    section {
+        background: palegreen;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    section {
+        background: olivedrab;
+        width: 33.3%;
+    }
+}
