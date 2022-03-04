@@ -62,7 +62,7 @@ li {
     text-decoration: none;
 }
 #banner {
-    background: url(/images/kids.JPG);
+    background: url(images/kids.JPG);
     background-size: cover;
     height: 400px;
     width: 100%;
@@ -93,7 +93,7 @@ header h1 span {
     font-size: small;
 }
 #banner2 {
-    background: url(/images/kids.JPG);
+    background: url(images/kids.JPG);
     background-size: cover;
     height: 400px;
     width: 100%;
