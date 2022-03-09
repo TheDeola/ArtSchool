@@ -86,10 +86,8 @@ li {
 }
 h1 span {
     font-weight:lighter;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header h1 span {
-    font-family: Montserrat;
     font-size: small;
 }
 #banner2 {
@@ -116,31 +114,26 @@ img {
     float: right;
 }
 .Art {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(76, 104, 234);
     font-size: xx-large;
     font-weight: bolder;
 }
 .Schoolb {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(236, 55, 96);
     font-size: xx-large;
     font-weight: bolder;
 }
 .For {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(245, 193, 4);
     font-size: xx-large;
     font-weight: bolder;
 }
 .Young {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(85, 199, 166);
     font-size: xx-large;
     font-weight: bolder;
 }
 .Picasso {
-    font-family: 'Times New Roman', Times, serif;
     color:rgb(135, 201, 42);
     font-size: xx-large;
     font-weight: bolder;
@@ -183,7 +176,6 @@ footer {
     clear: both;
     text-align: left;
     line-height: 7px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 @media screen and (max-width: 600px) {
     section {
