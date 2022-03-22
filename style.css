@@ -3,7 +3,7 @@
 }
 body {
     background-color:white;
-    padding: 50px;
+    padding: 30px 50px;
     font-family: Roboto, sans-serif;
 }
 header {
@@ -63,20 +63,28 @@ li {
 }
 #banner {
     background: url(images/kids.JPG);
+}
+#banner2 {
+    background: url(images/artcenter.jpg);
+}
+#banner3 {
+    background: url(images/teacherkids.JPG);
+}
+#banner, #banner2, #banner3 {
     background-size: cover;
     height: 400px;
     width: 100%;
     float: left;
     color: white;
 }
-#banner h1 {
+#banner h1, #banner2 h1, #banner3 h1 {
     font-size: 40px;
     padding: 50px 0 0 200px;
 }
-#banner ul {
+#banner ul, #banner2 ul, #banner3 ul {
     padding: 0 0 0 200px;
 }
-#banner a {
+#banner a, #banner2 a, #banner3 a {
     color:white;
     background: rgb(76, 104, 234);
     border: 10px solid rgb(76, 104, 234);
@@ -89,14 +97,6 @@ h1 span {
 }
 header h1 span {
     font-size: small;
-}
-#banner2 {
-    background: url(images/kids.JPG);
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    /* border: .1px solid white; */
-    color: white;
 }
 section {
     height: 200px;
@@ -139,9 +139,9 @@ img {
     font-weight: bolder;
 }
 #artschool {
-    background: url();
+    background: url(images/teacherkids2.JPG);
+    background-position: right;
     background-repeat: no-repeat;
-    float: right;
     height: 300px;
     width: 100%;
     padding: 30px 0;
@@ -152,6 +152,7 @@ img {
 #welcome {
     background-color: rgb(85, 199, 166);
     color: white;
+    height: 250px;
 }
 #welcome p {
     padding: 0 0 0 200px;
@@ -160,7 +161,7 @@ img {
     color:white;
     background:rgb(236, 55, 96);
     border: 10px solid rgb(236, 55, 96);
-    margin: 0 auto;
+    margin: 0 0 0 160px;
     border-radius: 10px;
     text-decoration: none;
     
